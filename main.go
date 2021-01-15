@@ -72,7 +72,7 @@ func main() {
 			"**You may need to restart your shell or IDE after it's set.**\n")
 	}
 
-	endpointURL := "https://425show.cognitiveservices.azure.com/"
+	endpointURL := "https://425streamjan.cognitiveservices.azure.com/"
 
 	computerVisionClient := computervision.New(endpointURL)
 	// We should use the BearerAuthorizer here:
